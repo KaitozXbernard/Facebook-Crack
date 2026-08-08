@@ -1,0 +1,83 @@
+:root {
+    --bg-color: #808080;
+    --card-color: white;
+    --text-color: black;
+}
+
+.dark {
+     --bg-color: #18191a;
+    --card-color: #242526;
+    --text-color: #e4e6eb;
+}
+
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    margin: 0;
+}
+
+.post {
+    background-color: var(--card-color);
+    max-width: 500px;
+    margin: 0px auto 10px auto;
+    padding: 16px;
+    border: 1px solid black;
+}
+.post:last-child{
+    margin-bottom: 0px;
+}
+
+header {
+    background-color: #1877F2;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Facebook {
+    color: white;
+}
+
+.leftnav {
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+    gap: 5px;
+
+}
+
+.rightnav {
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+    gap: 5px;
+}
+
+.box1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+.time {
+    margin-left: auto;
+}
+
+.post_image {
+    max-width: 100%;
+    border: 1px solid;
+    border-radius: 3%;
+}
+
+.box3 {
+    display: flex;
+    justify-content: space-around;
+}
