@@ -1,0 +1,26 @@
+## Facebook Crack
+
+Small replica with buttons which are for now not actioned to anything
+
+## Features
+Facebook style header
+Logo
+Navigation bar buttons similar to facebook
+Search bar
+
+## TechStack
+HTML
+CSS
+Js
+
+## Approach
+- First make the skeleton which is the HTML side
+- Make a rough idea of how facebook looks like with the help of HTML
+- Then slowly start to style each component one by one with the help of CSS
+- Finally make some of the buttons work as well with the help of JS
+
+##Challenges
+- Search was dropping below the facebook text so made it to flex
+- Avatars was turning to oval so made the image as square then put a circle on top of it
+- Dark mode emoji was not switiching because i wrote the if/else condition above the button initialization
+- divs were bit confusing but made it work
